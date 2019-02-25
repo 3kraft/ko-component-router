@@ -16,8 +16,7 @@
     "watch": "taskr watch",
     "test": "taskr test",
     "test:watch": "taskr test:watch",
-    "preinstall": "npm install --ignore-scripts",
-    "postinstall": "yarn build"
+    "prepare": "yarn build"
   },
   "keywords": [
     "knockoutjs",
