@@ -12,11 +12,10 @@
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "taskr build",
     "watch": "taskr watch",
     "test": "taskr test",
     "test:watch": "taskr test:watch",
-    "prepare": "yarn build"
+    "prepare": "taskr build"
   },
   "keywords": [
     "knockoutjs",
@@ -70,7 +69,6 @@
     "taskr-rollup": "^0.0.3",
     "ts-node": "^3.3.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.5.3",
-    "yarn": "^1.13.0"
+    "typescript": "^2.5.3"
   }
 }
